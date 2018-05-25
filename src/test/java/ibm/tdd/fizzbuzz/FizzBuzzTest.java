@@ -1,11 +1,12 @@
-import org.assertj.core.api.Assertions;
+package ibm.tdd.fizzbuzz;
+
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class MyTest {
+public class FizzBuzzTest {
 
-    @org.junit.Test
+    @Test
     public void my_first_test() throws Exception {
         assertThat(0).isEqualTo(0);
     }
